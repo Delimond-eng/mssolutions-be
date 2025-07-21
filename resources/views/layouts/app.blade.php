@@ -21,7 +21,7 @@
     <header class="header">
         <nav class="navbar">
             <div class="nav-container">
-                <a href="index.html" class="nav-logo">
+                <a href="/" class="nav-logo">
                     <i class="fab fa-windows"></i>
                     <span data-translate="nav.logo">Microsoft Dépannage</span>
                 </a>
