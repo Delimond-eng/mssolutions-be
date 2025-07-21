@@ -1,0 +1,404 @@
+@extends("layouts.app")
+
+@section("content")
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-translate="hero.title">Activez Windows & Office Facilement</h1>
+                <p class="hero-subtitle" data-translate="hero.subtitle">Services d'activation professionnels pour
+                    Windows et Microsoft Office avec validité à vie. Rapide, sécurisé et licences 100% authentiques avec
+                    support expert.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary" data-translate="hero.btn.primary">Activez Maintenant</a>
+                    <a href="#services" class="btn btn-secondary" data-translate="hero.btn.secondary">Voir Services</a>
+                </div>
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <i class="fas fa-shield-check"></i>
+                        <span data-translate="hero.feature.genuine">100% Authentique</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-clock"></i>
+                        <span data-translate="hero.feature.support">Support 24/7</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-infinity"></i>
+                        <span data-translate="hero.feature.lifetime">Validité à Vie</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-slider">
+
+                    <div class="hero-slide active">
+                        <img src="images/hero-img-2.webp" alt="Windows Activation">
+                    </div>
+
+                    <div class="hero-slide">
+                        <img src="images/hero-img-1.webp" alt="Professional IT Services">
+                    </div>
+
+                    <div class="hero-slide">
+                        <img src="images/hero-img-3.webp" alt="Technical Support">
+                    </div>
+                    <div class="hero-slide">
+                        <img src="images/hero-img-4.jpg" alt="Computer Repair">
+                    </div>
+                    <div class="hero-slide">
+                        <img src="images/hero-img-8.webp" alt="Xbox Game">
+                    </div>
+
+                    <button class="slider-nav prev" onclick="changeSlide(-1)">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="slider-nav next" onclick="changeSlide(1)">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+
+                    <div class="slider-dots">
+                        <span class="slider-dot active" onclick="currentSlide(1)"></span>
+                        <span class="slider-dot" onclick="currentSlide(2)"></span>
+                        <span class="slider-dot" onclick="currentSlide(3)"></span>
+                        <span class="slider-dot" onclick="currentSlide(4)"></span>
+                        <span class="slider-dot" onclick="currentSlide(5)"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-translate="services.title">Nos Services Professionnels</h2>
+                <p data-translate="services.subtitle">Solutions IT complètes pour particuliers et entreprises</p>
+            </div>
+            <div class="services-grid">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-translate="faq.title">Frequently Asked Questions</h2>
+                <p data-translate="faq.subtitle">Find answers to common questions about our services</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="faq.q1">Is Windows activation permanent?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="faq.a1">Yes, our Windows activation is permanent and lifetime valid. Once
+                            activated, your Windows
+                            will remain genuine forever with full Microsoft support and updates. We use only legitimate
+                            licenses that don't expire.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="faq.q2">How long does the activation process take?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="faq.a2">Most activations are completed within 15-30 minutes via remote
+                            access. For system
+                            reinstallation services, it typically takes 2-4 hours depending on your system
+                            specifications and internet speed.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="faq.q3">Do you provide support after activation?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="faq.a3">Absolutely! We provide 24/7 technical support for all our services.
+                            If you encounter any
+                            issues with your activation or need assistance, our team is always available to help you.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="faq.q4">Is remote access safe?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="faq.a4">Yes, our remote access is completely secure. We use encrypted
+                            connections, you maintain full
+                            control of your computer, and we remove all remote software after the session. Your privacy
+                            and security are our top priorities.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="faq.q5">What payment methods do you accept?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="faq.a5">We accept various payment methods including PayPal, credit/debit
+                            cards, bank transfers, and
+                            cryptocurrency. Payment is processed securely and we provide receipts for all transactions.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="faq.q6">Can you help with business/enterprise licenses?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="faq.a6">Yes, we offer bulk activation services for businesses and
+                            enterprises. We can handle multiple
+                            computers simultaneously and provide volume licensing solutions with special pricing for
+                            organizations.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="faq.q7">What if my computer crashes after activation?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="faq.a7">Our activation survives system crashes and hardware changes. If you
+                            need to reinstall
+                            Windows, contact us and we'll reactivate your system at no additional cost. Our lifetime
+                            support covers these scenarios.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="faq.q8">Do you work on weekends and holidays?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="faq.a8">Yes, we provide 24/7 support including weekends and holidays. Our
+                            remote assistance service
+                            is available anytime you need help. Simply contact us via WhatsApp, phone, or email.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-detail">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-translate="contact.title">Ready to Get Started?</h2>
+                <p data-translate="contact.subtitle">Contact us now to activate your Windows or get any other service
+                </p>
+            </div>
+            <div class="contact-detail-content">
+                <div class="contact-form-section">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name" data-translate="contact.form.name">Full Name</label>
+                                    <input type="text" id="name" placeholder="ex: Gaston " name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" data-translate="contact.form.email">Email Address</label>
+                                    <input type="email" placeholder="example@domain" id="email" name="email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" data-translate="contact.form.phone">Phone Number</label>
+                                <input type="tel" placeholder="ex: +(33)xxx" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="service" data-translate="contact.form.service">Service Needed</label>
+                                <select id="service" name="service" required>
+                                    <option value="" data-translate="contact.form.service.select">Select a service
+                                    </option>
+                                    <option value="windows-activation" data-translate="contact.form.service.windows">
+                                        Windows Activation</option>
+                                    <option value="office-activation" data-translate="contact.form.service.office">
+                                        Office Activation</option>
+                                    <option value="system-reinstall" data-translate="contact.form.service.reinstall">
+                                        System Reinstallation</option>
+                                    <option value="pc-optimization" data-translate="contact.form.service.optimization">
+                                        PC Optimization</option>
+                                    <option value="virus-removal" data-translate="contact.form.service.virus">Virus
+                                        Removal</option>
+                                    <option value="data-recovery" data-translate="contact.form.service.data">Data
+                                        Recovery</option>
+                                    <option value="remote-support" data-translate="contact.form.service.remote">Remote
+                                        Support</option>
+                                    <option value="other" data-translate="contact.form.service.other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" data-translate="contact.form.message.placeholder" name="message"
+                                    rows="4" placeholder="Describe your requirements..."></textarea>
+                            </div>
+                            <button type="submit" data-translate="contact.form.submit" class="btn btn-primary">Send
+                                Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="map-section">
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4 data-translate="contact.address.title">Address</h4>
+                                <p>Avenue Louise 200, 1050 Ixelles,<br> Bruxelles, Belgique</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <a href="https://wa.me/+243813719944" class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <div class="contact-details">
+                                <h4 data-translate="contact.whatsapp.title">WhatsApp</h4>
+                                <p>+ (243) 81 371 99 44</p>
+                                <a href="https://wa.me/+243813719944" data-translate="contact.whatsapp.chat"
+                                    class="whatsapp-link">Chat Now</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <a href="tel:+243813719944" class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                            <div class="contact-details">
+                                <h4 data-translate="contact.phone.title">Phone Support</h4>
+                                <p>+ (243) 81 371 99 44</p>
+                                <small data-translate="contact.phone.available">Available 24/7</small>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <a href="mailTo:support@ssdpro.com" class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>servicesoffice59@gmail.com</p>
+                                <small data-translate="contact.email.reply">We reply within 1 hour</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1234567890123!2d-74.0059413!3d40.7127753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjAiTiA3NMKwMDAnMjEuNCJX!5e0!3m2!1sen!2sus!4v1234567890123"
+                    width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-translate="testimonials.title">What Our Clients Say</h2>
+                <p data-translate="testimonials.subtitle">Trusted by thousands of satisfied customers</p>
+            </div>
+            <div class="testimonials-slider-container">
+                <div class="testimonials-slider" id="testimonialsSlider">
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p data-translate="testimonials.1.text">"Excellent service! My Windows was activated in
+                                minutes and has been working perfectly for months. Professional and reliable."</p>
+                            <div class="testimonial-author">
+                                <strong data-translate="testimonials.1.author">Julien</strong>
+                                <span data-translate="testimonials.1.role">Small Business Owner</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p data-translate="testimonials.2.text">"Fast, affordable, and genuine. Got my Office 365
+                                activated instantly. The remote support was amazing. Highly recommend!"</p>
+                            <div class="testimonial-author">
+                                <strong data-translate="testimonials.2.author">Laurent Dupont</strong>
+                                <span data-translate="testimonials.2.role">Freelancer</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p data-translate="testimonials.3.text">"They completely reinstalled my system and activated
+                                everything. My PC runs like new! Professional service at great prices."</p>
+                            <div class="testimonial-author">
+                                <strong>Gaston delimond</strong>
+                                <span data-translate="testimonials.3.role">IT Manager</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p data-translate="testimonials.4.text">"Outstanding technical support! They solved my
+                                complex system issues remotely in under an hour. Truly professional team."</p>
+                            <div class="testimonial-author">
+                                <strong data-translate="testimonials.4.author">Emma Wilson</strong>
+                                <span data-translate="testimonials.4.role">Graphic Designer</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p data-translate="testimonials.5.text">"Best IT service I've ever used. Quick response,
+                                fair pricing, and genuine software. My business computers are running perfectly."</p>
+                            <div class="testimonial-author">
+                                <strong data-translate="testimonials.5.author">James Thompson</strong>
+                                <span data-translate="testimonials.5.role">Restaurant Owner</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p data-translate="testimonials.6.text">"Recovered all my important files after a system
+                                crash. Their data recovery service saved my business. Highly recommended!"</p>
+                            <div class="testimonial-author">
+                                <strong data-translate="testimonials.6.author">Lisa Martinez</strong>
+                                <span data-translate="testimonials.6.role">Consultant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonials-nav">
+                    <div class="testimonials-dots" id="testimonialsDots">
+                        <span class="testimonials-dot active" onclick="goToTestimonialSlide(0)"></span>
+                        <span class="testimonials-dot" onclick="goToTestimonialSlide(1)"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+@endsection
