@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/toast.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-
+    @verbatim
     <script type="application/ld+json">
     {
     "@context": "https://schema.org",
@@ -33,8 +33,9 @@
     },
     "geo": {
         "@type": "GeoCoordinates",
-        "latitude": -4.441931,
-        "longitude": 15.266293
+        
+        "latitude": 50.82726739383,
+        "longitude": 4.364490141280536
     },
     "openingHoursSpecification": [{
         "@type": "OpeningHoursSpecification",
@@ -55,6 +56,7 @@
     ]
     }
     </script>
+    @endverbatim
     
     @stack("styles")
 </head>
