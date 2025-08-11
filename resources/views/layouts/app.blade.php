@@ -5,12 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Microsoft Dépannage - Professional Windows & Office Activation Services</title>
+    <meta name="description" content="Obtenez une assistance professionnelle pour l'activation et le dépannage de Microsoft Office. Services rapides et efficaces pour résoudre vos problèmes d'installation, d'activation de licence, d'erreurs Office et de configuration. Disponible pour particuliers et entreprises.">
+    <meta name="keywords" content="activation Office, dépannage Office, Microsoft Office, assistance Office, réparation Office, licence Office">
+    <meta name="author" content="OfficeSolution-Be">
+    <title>Activation Office - Assistance rapide</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/toast.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Nom de ton entreprise",
+    "image": "https://salama-drc.com/images/favicon.png",
+    "@id": "",
+    "url": "https://salama-drc.com",
+    "telephone": "+32 800 260 49",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Adresse complète",
+        "addressLocality": "Bruxelle",
+        "postalCode": "Code postal",
+        "addressCountry": "BE"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -4.441931,
+        "longitude": 15.266293
+    },
+    "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+        ],
+        "opens": "08:00",
+        "closes": "00:00"
+    }],
+    "sameAs": [
+        "https://www.facebook.com/officesolutions-be",
+        "https://www.instagram.com/officesolutions-be"
+    ]
+    }
+    </script>
     
     @stack("styles")
 </head>
