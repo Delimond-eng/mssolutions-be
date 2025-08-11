@@ -171,33 +171,33 @@
                             </div>
                         </div>
                         <div class="contact-method">
-                            <a href="https://wa.me/+243813719944" class="contact-icon">
+                            <a href="https://wa.me/+3280026049" class="contact-icon">
                                 <i class="fab fa-whatsapp"></i>
                             </a>
                             <div class="contact-details">
                                 <h4 data-translate="contact.whatsapp.title">WhatsApp</h4>
-                                <p>+ (243) 81 371 99 44</p>
-                                <a href="https://wa.me/+243813719944" data-translate="contact.whatsapp.chat"
+                                <p>+32 800 26049</p>
+                                <a href="https://wa.me/+3280026049" data-translate="contact.whatsapp.chat"
                                     class="whatsapp-link">Chat Now</a>
                             </div>
                         </div>
                         <div class="contact-method">
-                            <a href="tel:+243813719944" class="contact-icon">
+                            <a href="tel:+32 800 26049" class="contact-icon">
                                 <i class="fas fa-phone"></i>
                             </a>
                             <div class="contact-details">
                                 <h4 data-translate="contact.phone.title">Phone Support</h4>
-                                <p>+ (243) 81 371 99 44</p>
+                                <p>+32 800 26049</p>
                                 <small data-translate="contact.phone.available">Available 24/7</small>
                             </div>
                         </div>
                         <div class="contact-method">
-                            <a href="mailTo:microsftsolutionbelgique@gmail.com" class="contact-icon">
+                            <a href="mailTo:servicesoffice59@gmail.com" class="contact-icon">
                                 <i class="fas fa-envelope"></i>
                             </a>
                             <div class="contact-details">
                                 <h4>Email</h4>
-                                <p>microsftsolutionbelgique@gmail.com</p>
+                                <p>servicesoffice59@gmail.com</p>
                                 <small data-translate="contact.email.reply">We reply within 1 hour</small>
                             </div>
                         </div>

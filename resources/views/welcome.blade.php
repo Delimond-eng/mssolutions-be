@@ -265,23 +265,23 @@
                             </a>
                             <div class="contact-details">
                                 <h4 data-translate="contact.whatsapp.title">WhatsApp</h4>
-                                <p>+ (243) 81 371 99 44</p>
-                                <a href="https://wa.me/+243813719944" data-translate="contact.whatsapp.chat"
+                                <p>+32 800 260 49</p>
+                                <a href="https://wa.me/+3280026049" data-translate="contact.whatsapp.chat"
                                     class="whatsapp-link">Chat Now</a>
                             </div>
                         </div>
                         <div class="contact-method">
-                            <a href="tel:+243813719944" class="contact-icon">
+                            <a href="tel:+3280026049" class="contact-icon">
                                 <i class="fas fa-phone"></i>
                             </a>
                             <div class="contact-details">
                                 <h4 data-translate="contact.phone.title">Phone Support</h4>
-                                <p>+ (243) 81 371 99 44</p>
+                                <p>+32 800 26049</p>
                                 <small data-translate="contact.phone.available">Available 24/7</small>
                             </div>
                         </div>
                         <div class="contact-method">
-                            <a href="mailTo:support@ssdpro.com" class="contact-icon">
+                            <a href="mailTo:servicesoffice59@gmail.com" class="contact-icon">
                                 <i class="fas fa-envelope"></i>
                             </a>
                             <div class="contact-details">
@@ -296,7 +296,7 @@
 
             <div class="map-container">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1234567890123!2d-74.0059413!3d40.7127753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjAiTiA3NMKwMDAnMjEuNCJX!5e0!3m2!1sen!2sus!4v1234567890123"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2532.289549287132!2d4.365711315673428!3d50.82650187953106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c3e7e5a7df3b%3A0x2db177b43b688f99!2sAvenue%20Louise%20200%2C%201050%20Ixelles%2C%20Belgique!5e0!3m2!1sfr!2sbe!4v1689836600000"
                     width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade">
                 </iframe>

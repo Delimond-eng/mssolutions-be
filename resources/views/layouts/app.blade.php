@@ -136,7 +136,7 @@
                 <div class="footer-section">
                     <h4 data-translate="footer.contact">Contact Info</h4>
                     <ul>
-                        <li><i class="fas fa-phone"></i> <span>+1 (555) 123-4567</span>
+                        <li><i class="fas fa-phone"></i> <span> <a href="tel:+32 800 26049"></a></span>
                         </li>
                         <li><i class="fas fa-envelope"></i> <a
                                 href="mailTo:microsftsolutionbelgique@gmail.com"><span>microsftsolutionbelgique@gmail.com</span></a>
@@ -148,7 +148,7 @@
 
             <div class="footer-bottom">
                 <p data-translate="footer.copyright">
-                    © 2024 Microsoft Dépannage. All rights reserved. | Privacy Policy | Terms of Service
+                    © 2025 OfficeSolutionbe. All rights reserved. | Privacy Policy | Terms of Service
                 </p>
             </div>
         </div>
